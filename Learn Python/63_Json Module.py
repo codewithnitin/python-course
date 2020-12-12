@@ -326,13 +326,13 @@ order.
 """
 
 To use quandl.com we need to sign up into quandl.com for free data and once we register into it
-so it gives one unique API key to us : ARuyvUdN1pxnYyyu7L-x and whatever email address we had 
+so it gives one unique API key to us : yourapikey and whatever email address we had 
 provided at the time of signing up would be your username and password would be password which
 ypu had created at singing up an account on quandl.com
 
 My quandl credentials are :
-    Username : s19nitin@gmail.com
-    Password : IPLUAE@2020
+    Username : youremail
+    Password : yourpassword
 
  
 
@@ -359,7 +359,7 @@ EXPORT DATA so once we click on JSON under EXPORT DATA under API so we will get 
 for Minneapolis HRWI Hard Red Wheat Futures, Continuous contract #1 [IH1] [Front Month]
 
 
-url = https://www.quandl.com/api/v3/datasets/CHRIS/MGEX_IH1.json?api_key=ARuyvUdN1pxnYyyu7L-x
+url = https://www.quandl.com/api/v3/datasets/CHRIS/MGEX_IH1.json?api_key=yourapikey
 
 
 So we will play with json data of quandl.com related to Minneapolis HRWI Hard Red Wheat Futures, 
@@ -371,7 +371,7 @@ which is given below :
 
 
 
-# r = requests.get("https://www.quandl.com/api/v3/datasets/CHRIS/MGEX_IH1.json?api_key=ARuyvUdN1pxnYyyu7L-x")
+# r = requests.get("https://www.quandl.com/api/v3/datasets/CHRIS/MGEX_IH1.json?api_key=yourapikey")
 # print(r.text)
 
 
