@@ -1,0 +1,55 @@
+These are the commands which should be known by every developer for pushing code to github.
+
+Click on start window and open git bash console then perfom these two commands :
+
+git config --global user.name "username"           ( Onetimeommand )
+
+git config --global user.email "youremail"         ( Onetimecommand )
+
+Once it is done then move to that folder where your files are presented which you wish to push on github 
+then you need to follow shift + right click then click on git bash here so you will be directed to that
+directory folder in git bash console.
+
+(If you do not want to forward some unwanted folders on github which are presented in the same directory
+so type this command on bash console touch .gitignore due to which there will be one file appear naming
+.gitignore in that file you simply need to put foldername/ and save it. )
+
+touch .gitignore (Optional command)
+
+git init
+
+git add .
+
+ssh-keygen -t rsa -b 4096 -C "youremail" ( OnetimeCommand to add ssh key into github to recognize
+your local machine then follow instructions to create ssh key into the directory and entering
+passphrase enter then enter to confirm then your key will be generated in terms of Pub file)
+
+cat pubfilepath (Onetime command- Then you will be able to see ssh key and then copy and paste it 
+into the account setting path of github account as ssh key once it is done then come back to bash
+console and follow these two commands )
+
+git remote add origin git@github.com:codewithnitin/python-course.git
+
+git status
+
+git push origin master
+
+
+
+After that whenever you push any code to new repository of your github account you just follow
+these steps :
+
+Move to that folder where your files are presented which you wish to push on github 
+then you need to follow shift + right click then click on git bash here so you will 
+be directed to that directory folder in git bash console.
+
+git init
+
+git add .
+
+git remote add origin git@github.com:codewithnitin/repositoryname.git
+
+git push origin master
+
+
+
