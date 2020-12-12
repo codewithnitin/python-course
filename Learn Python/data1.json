@@ -1,0 +1,29 @@
+{
+  "States": [
+    {
+      "Abbreviation": "ND",
+      "Budget": "2 Cr",
+      "Name": "New Delhi"
+    },
+    {
+      "Abbreviation": "HR",
+      "Budget": "3 Cr",
+      "Name": "Haryana"
+    },
+    {
+      "Abbreviation": "RJ",
+      "Budget": "4 Cr",
+      "Name": "Rajasthan"
+    },
+    {
+      "Abbreviation": "UP",
+      "Budget": "10 Cr",
+      "Name": "Uttar Pardesh"
+    },
+    {
+      "Abbreviation": "UK",
+      "Budget": "1 Cr",
+      "Name": "Uttarakhand"
+    }
+  ]
+}

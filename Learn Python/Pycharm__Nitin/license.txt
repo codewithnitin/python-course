@@ -1,0 +1,9 @@
+
+@author : Nitin who is the creature of this module Pycharm__Nitin
+
+@Module Pycharm_Nitin : Open Source
+
+
+
+Note : ( Ye basically ye btati hai ki hmara module or software ko run
+karne ke liye koi right means license key chahe ya open source hai )
