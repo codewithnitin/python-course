@@ -45,7 +45,7 @@ be directed to that directory folder in git bash console.
 
 git init
 
-git add .
+git add file
 
 git remote add origin git@github.com:codewithnitin/repositoryname.git
 
