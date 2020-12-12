@@ -23,7 +23,7 @@ def speak2(str):
     speak.speak(str)
 
 
-r = requests.get("http://newsapi.org/v2/top-headlines?country=in&apiKey=dcec54f89dc3408fbfab631139c830aa")
+r = requests.get("http://newsapi.org/v2/top-headlines?country=in&apiKey=yournewsapi")
 json_string = r.text
 dict = json.loads(json_string)
 print(dict)
